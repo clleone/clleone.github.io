@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Callie Leone</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com/clleone" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com/in/callie-leone" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:clleone@uchicago.edu">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Callie 👋</h2>
+        <p>I am a second year master's student at the University of Chicago's Harris School of Public Policy where I am earning my MS in Computational Analysis and Public Policy.
+             I am interested in data science and civic technology as well as urban policy studies.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-pen"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/melonpan pic of yours truly.jpeg" alt="bread picture bc I don't have a headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        As a budding data scientist, I have worked hard over the last year to build skills in these languages and technologies.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/python-logo-only.png" alt="python logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/Rlogo.svg" alt="R logo">
+          <span>R</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/ArcGIS_globe.png" alt="GIS logo">
+          <span>GIS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/Sql_data_base_with_logo.png" alt="sql logo">
+          <span>SQL</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/d3.svg" alt="d3 logo">
+          <span>D3.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+      <div class="pcells">
+        <div class="pcell">
+          <img src="images/grouped_bar.svg" alt="static preview">
+          <h3>
+          <a href="https://github.com/clleone/capp30239/blob/main/Static%20Visualization/README.md">
+            US Childcare Affordability Visualized</a>
+          </h3>
+          <p>A collection of static visualizations made in python's Altair library using NDCP data.</p>
+        </div>
+
+        <div class="pcell">
+          <img src="images/machine learning confusion matrix.png" alt="ml preview">
+          <h3>
+          <a href="https://github.com/clleone">
+            312 ML-ation</a>
+          </h3>
+          <p>A machine learning project looking at response time compliance for the Chicago Fire department using
+            logistic regression and k-nearest neighbor models. My main contributions were to model development and geospatial data processing.
+          </p>
+        </div>
+
+        <div class="pcell">
+          <img id=illinois-map src="images\illinois_matted.png" alt="gis preview">
+          <h3>
+          <a href="https://github.com/clleone">
+            Illnois Childcare Accessibility</a>
+          </h3>
+          <p>A suite of choropleth and graduated symbol maps looking at childcare access by county in Illinois and nationally. I did the maps for Illinois. This was was my first project using ArcGIS Pro.
+          </p>
+
+        </div>
+    
+      <!-- <div class="group">
+        <div class="person-details">
+          <img src="images/testimony-headshot.webp">
+          <p>John Doe</p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+
+        <div class="text">
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, sint repudiandae ratione exercitationem saepe distinctio cumque quaerat nostrum laborum? Rem adipisci natus eos nemo reprehenderit, cumque nostrum enim commodi. Eum, enim vero eveniet doloremque sed veniam. Doloremque explicabo non reprehenderit expedita! Accusamus mollitia repellendus dolorum officiis libero quod deleniti cum."
+        </div>
+      </div> -->
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Please get in touch! Send me an email here or reach out over LinkedIn.
+        </div>
+
+        <form
+        action="https://formspree.io/f/xkgdzpqw"
+        method="POST"
+        >
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
